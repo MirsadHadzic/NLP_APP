@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975742391908",
+    "project_id": "nlpapp-3d23d",
+    "storage_bucket": "nlpapp-3d23d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975742391908:android:548808716920d05574b171",
+        "android_client_info": {
+          "package_name": "com.MirsadHadzic.nlpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975742391908-blar5atgtq546fpguuttnoo99brs2dpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfP4JQBE429S1Ab6iLo706rCQ_oOTE3cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975742391908-blar5atgtq546fpguuttnoo99brs2dpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

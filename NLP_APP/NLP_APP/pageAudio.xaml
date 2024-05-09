@@ -1,0 +1,62 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NLP_APP.pageAudio">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Title Label -->
+            <Label Text="Audio Sentiment" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Margin="0,20,0,0"/>
+
+            <!-- Content StackLayout -->
+            <StackLayout Grid.Row="1" Padding="20" VerticalOptions="CenterAndExpand">
+                <!-- Button to Convert Audio to Text -->
+                <Button x:Name="cmdAudioToTxt" 
+                        Text="Convert Audio to Text" 
+                        Clicked="cmdAudioToTxt_ClickedAsync" 
+                        BackgroundColor="#2196F3" 
+                        TextColor="White" 
+                        CornerRadius="8" 
+                        Margin="0,0,0,20"/>
+
+                <!-- Buttons for Recording Audio -->
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,20">
+                    <Button x:Name="cmdAudioStart" 
+                            Text="Start Recording" 
+                            Clicked="cmdAudioStart_Clicked" 
+                            BackgroundColor="#4CAF50" 
+                            TextColor="White" 
+                            CornerRadius="8" 
+                            HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="cmdAudioStop" 
+                            Text="Stop Recording" 
+                            Clicked="cmdAudioStop_Clicked" 
+                            BackgroundColor="#F44336" 
+                            TextColor="White" 
+                            CornerRadius="8" 
+                            HorizontalOptions="FillAndExpand" 
+                            IsEnabled="False"/>
+                </StackLayout>
+
+                <!-- Button to Play Audio -->
+                <Button x:Name="cmdPlay" 
+                        Text="Play" 
+                        Clicked="cmdPlay_Clicked" 
+                        BackgroundColor="#FFC107" 
+                        TextColor="White" 
+                        CornerRadius="8" 
+                        HorizontalOptions="FillAndExpand" 
+                        IsEnabled="False" 
+                        IsVisible="False"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

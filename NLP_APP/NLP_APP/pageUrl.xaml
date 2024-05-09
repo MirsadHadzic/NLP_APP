@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NLP_APP.pageUrl">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Title Label -->
+            <Label Text="URL Sentiment" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Margin="0,20,0,0"/>
+
+            <!-- Content StackLayout -->
+            <StackLayout Grid.Row="1" Padding="20" VerticalOptions="CenterAndExpand">
+                <!-- Enhanced URL Entry -->
+                <Frame BackgroundColor="White" Padding="5" CornerRadius="8" Margin="0,0,0,20">
+                    <Entry x:Name="txtUrl" Placeholder="Please enter URL here..."
+                           VerticalOptions="Center" HorizontalOptions="FillAndExpand"
+                           Text="https://mirsadhadzic.github.io/index.html"/>
+                </Frame>
+
+                <!-- Analyze Button -->
+                <Button x:Name="cmdStart" Text="Analyze" Clicked="cmdStart_Clicked"
+                        BackgroundColor="#2196F3" TextColor="White" CornerRadius="8"
+                        HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

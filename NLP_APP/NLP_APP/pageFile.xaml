@@ -1,0 +1,41 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NLP_APP.pageFile">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <!-- Title Label -->
+            <Label Text="File Sentiment" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   Margin="0,20,0,0"/>
+
+            <!-- Content StackLayout -->
+            <StackLayout Grid.Row="1" Padding="20" VerticalOptions="CenterAndExpand" Spacing="20">
+                <!-- Stylish Information Label Inside a Frame -->
+                <Frame BackgroundColor="#E3F2FD" Padding="20" CornerRadius="10">
+                    <Label Text="Want to analyze files?                             Click below to find out what will happen."
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2196F3"
+                           HorizontalTextAlignment="Center"/>
+                </Frame>
+
+                <!-- Button for File Analysis -->
+                <Button x:Name="cmdStart"
+                        Text="Start"
+                        Clicked="cmdStart_Clicked"
+                        BackgroundColor="#2196F3"
+                        TextColor="White"
+                        CornerRadius="8"
+                        HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NLP_APP.pageMenu">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#F5F5F5" Margin="20">
+            <!-- Menu Title Frame -->
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="8" Margin="0,0,0,10">
+                <StackLayout Orientation="Horizontal">
+                    <!-- Back Arrow Button -->
+                    <Button 
+                        Text="&lt;"
+                        FontSize="24"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        Clicked="BackButton_Clicked"
+                        VerticalOptions="Center"/>
+
+                    <!-- Menu Title -->
+                    <Label Text="Menu" HorizontalTextAlignment="Center" TextColor="White" FontSize="24" VerticalOptions="Center" HorizontalOptions="Center" Margin="30,2,0,0"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Menu Content -->
+            <StackLayout>
+                <Button x:Name="cmdTxt" Text="Text" Clicked="cmdTxt_Clicked" BackgroundColor="#FFEB3B" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
+                <Button x:Name="cmdUrl" Text="URL" Clicked="cmdUrl_Clicked" BackgroundColor="#4CAF50" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
+                <Button x:Name="cmdFile" Text="File" Clicked="cmdFile_Clicked" BackgroundColor="#9C27B0" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
+                <Button x:Name="cmdAudio" Text="Audio" Clicked="cmdAudio_Clicked" BackgroundColor="#2196F3" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

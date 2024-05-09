@@ -1,0 +1,17 @@
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\bin\Debug\netstandard2.0\NLP_APP.deps.json
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\bin\Debug\netstandard2.0\NLP_APP.dll
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\bin\Debug\netstandard2.0\ref\NLP_APP.dll
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\bin\Debug\netstandard2.0\NLP_APP.pdb
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.csproj.AssemblyReference.cache
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\pageMenu.xaml.g.cs
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\pageText.xaml.g.cs
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.AssemblyInfoInputs.cache
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.AssemblyInfo.cs
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.csproj.CoreCompileInputs.cache
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.dll
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\ref\NLP_APP.dll
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.0\NLP_APP.pdb

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NLP_APP.pageRegister">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="FillAndExpand" Padding="20">
+
+                <!-- Images Row -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <!-- First Image -->
+                    <Frame CornerRadius="10" Padding="5" HasShadow="False" BackgroundColor="LightBlue">
+                        <Image Source="drawable/images.png" HeightRequest="200" Margin="20,20,20,20"/>
+                    </Frame>
+                </StackLayout>
+
+                <!-- Welcome Frame -->
+                <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="10" Margin="0,40,0,40">
+                    <Label Text="New user - Registration" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+                </Frame>
+
+                <!-- Username Entry -->
+                <Frame BackgroundColor="White" Padding="10" CornerRadius="8" Margin="0,0,0,10">
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Username:" VerticalOptions="Center" TextColor="#333333" FontSize="18" WidthRequest="100"/>
+                        <Entry x:Name="txtUser" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                               Placeholder="Enter your username" FontSize="18"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Password Entry -->
+                <Frame BackgroundColor="White" Padding="10" CornerRadius="8" Margin="0,0,0,10">
+                    <StackLayout Orientation="Horizontal" Padding="5">
+                        <Label Text="Password:" VerticalOptions="Center" TextColor="#333333" FontSize="18" WidthRequest="100"/>
+                        <Entry x:Name="txtPass" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                               Placeholder="Enter your password" FontSize="18" IsPassword="True"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Buttons Row -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="0,20,0,0">
+                    <Button x:Name="cmdRegister" Clicked="cmdRegister_Clicked" Text="Register" 
+                            HorizontalOptions="FillAndExpand" BackgroundColor="#4CAF50" TextColor="White"
+                            CornerRadius="8" Margin="5,0"/>
+                    <Button x:Name="cmdCancel" Clicked="cmdCancel_Clicked" Text="Cancel" 
+                            HorizontalOptions="FillAndExpand" BackgroundColor="#E57373" TextColor="White"
+                            CornerRadius="8" Margin="5,0"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

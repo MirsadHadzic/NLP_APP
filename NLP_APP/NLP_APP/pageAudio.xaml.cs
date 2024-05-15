@@ -19,7 +19,7 @@ namespace NLP_APP
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class pageAudio : ContentPage
     {
-        string sOpenAiKey = "";
+        string sOpenAiKey = "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";
         string sLastFile = String.Empty;
         AudioRecorderService audioService = new AudioRecorderService();
         AudioPlayer audioPlayer = new AudioPlayer();

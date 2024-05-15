@@ -27,6 +27,9 @@
     <EmbeddedResource Update="pageFile.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="pageHistory.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="pageMenu.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

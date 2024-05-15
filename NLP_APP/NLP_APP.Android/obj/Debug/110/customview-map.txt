@@ -14,6 +14,7 @@ background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
 cache-path;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\110\res\values\colors.xml
+Color;obj\Debug\110\res\values\colors.xml
 com.google.android.material.appbar.AppBarLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\rootlayout.xml
 com.google.android.material.appbar.AppBarLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\shellcontent.xml
@@ -21,6 +22,8 @@ com.google.android.material.bottomnavigation.BottomNavigationView;D:\Users\Anes\
 com.google.android.material.tabs.TabLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\fallbacktabbardonotuse.xml
 com.google.android.material.tabs.TabLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\rootlayout.xml
 com.google.android.material.tabs.TabLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\tabbar.xml
+crc643f46942d9dd1fff9.ShellFlyoutLayout;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\flyoutcontent.xml
+crc64720bb2db43a66fe9.FormsViewPager;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\layout\rootlayout.xml
 declare-styleable;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\57\jl\res\values\attrs.xml
 external-cache-path;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP.Android\obj\Debug\110\lp\46\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml

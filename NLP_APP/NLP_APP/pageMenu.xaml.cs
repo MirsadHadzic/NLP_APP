@@ -45,5 +45,10 @@ namespace NLP_APP
         {
             Navigation.PushModalAsync(new pageAudio(sUserName));
         }
+
+        private void cmdHistory_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new pageHistory(sUserName));
+        }
     }
 }

@@ -23,7 +23,7 @@
                 <StackLayout Orientation="Horizontal" Padding="5">
                     <Label Text="Username:" VerticalOptions="Center" TextColor="#333333" FontSize="18" WidthRequest="100"/>
                     <Entry x:Name="txtUser" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
-                           Placeholder="Enter your username" FontSize="18"/>
+                           Placeholder="Enter your username" FontSize="18" TextColor="Black"/>
                 </StackLayout>
             </Frame>
 
@@ -32,7 +32,7 @@
                 <StackLayout Orientation="Horizontal" Padding="5">
                     <Label Text="Password:" VerticalOptions="Center" TextColor="#333333" FontSize="18" WidthRequest="100"/>
                     <Entry x:Name="txtPass" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
-                           Placeholder="Enter your password" FontSize="18" IsPassword="True"/>
+                           Placeholder="Enter your password" FontSize="18" IsPassword="True" TextColor="Black"/>
                 </StackLayout>
             </Frame>
 

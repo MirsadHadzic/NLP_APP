@@ -1,17 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Plugin.GoogleClient;
-using System;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using System.Windows.Input;
-//using Acr.UserDialogs;
-using Newtonsoft.Json;
-//using Plugin.FacebookClient;
-using Plugin.GoogleClient;
 using Plugin.GoogleClient.Shared;
-using Xamarin.Forms;
 using NLP_APP.Persistence;
 
 namespace NLP_APP
@@ -83,7 +75,7 @@ namespace NLP_APP
 
         protected override void OnAppearing()
         {
-            txtUser.Text = txtPass.Text = "";
+            txtUser.Text = txtPass.Text = "mehokodro";
         }
         private async void Button_Clicked(object sender, EventArgs e)
         {

@@ -64,7 +64,7 @@ namespace NLP_APP
                     Headers =
                     {
                         { "Accept", "application/json" },
-                        { "X-RapidAPI-Key", "ef35850716msh0b8a1e96446b449p14710ejsnd7416bc2b912" },
+                        { "X-RapidAPI-Key", "" },
                         { "X-RapidAPI-Host", "sentiment-analysis9.p.rapidapi.com" },
                     },
                     Content = new StringContent(jaSend.ToString())

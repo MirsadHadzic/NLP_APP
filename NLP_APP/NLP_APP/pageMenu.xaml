@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NLP_APP.pageMenu">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" BackgroundColor="#F5F5F5" Margin="20">
+        <StackLayout VerticalOptions="FillAndExpand" Margin="20">
             <!-- Menu Title Frame -->
             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="8" Margin="0,0,0,10">
                 <StackLayout Orientation="Horizontal">
@@ -21,11 +21,12 @@
             </Frame>
 
             <!-- Menu Content -->
-            <StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
                 <Button x:Name="cmdTxt" Text="Text" Clicked="cmdTxt_Clicked" BackgroundColor="#FFEB3B" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
                 <Button x:Name="cmdUrl" Text="URL" Clicked="cmdUrl_Clicked" BackgroundColor="#4CAF50" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
                 <Button x:Name="cmdFile" Text="File" Clicked="cmdFile_Clicked" BackgroundColor="#9C27B0" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
                 <Button x:Name="cmdAudio" Text="Audio" Clicked="cmdAudio_Clicked" BackgroundColor="#2196F3" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
+                <Button x:Name="cmdHistory" Text="User history" Clicked="cmdHistory_Clicked" BackgroundColor="#FF9000" TextColor="White" CornerRadius="8" Margin="0,0,0,10"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

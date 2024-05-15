@@ -21,7 +21,7 @@
             <StackLayout Grid.Row="1" Padding="20" VerticalOptions="CenterAndExpand">
                 <!-- Enhanced Editor -->
                 <Frame BackgroundColor="White" Padding="5" CornerRadius="8" Margin="0,0,0,20">
-                    <Editor x:Name="editor" Placeholder="Please enter text here..."
+                    <Editor x:Name="editor" Placeholder="Please enter text here..." TextColor="Black" PlaceholderColor="#2196F3"
                             VerticalOptions="Start" Margin="5"/>
                 </Frame>
 

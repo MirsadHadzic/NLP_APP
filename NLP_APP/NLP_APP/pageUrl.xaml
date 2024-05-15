@@ -23,7 +23,8 @@
                 <Frame BackgroundColor="White" Padding="5" CornerRadius="8" Margin="0,0,0,20">
                     <Entry x:Name="txtUrl" Placeholder="Please enter URL here..."
                            VerticalOptions="Center" HorizontalOptions="FillAndExpand"
-                           Text="https://mirsadhadzic.github.io/index.html"/>
+                           Text="https://mirsadhadzic.github.io/index.html"
+                           TextColor="Black" PlaceholderColor="#2196F3"/>
                 </Frame>
 
                 <!-- Analyze Button -->

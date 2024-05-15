@@ -1,0 +1,79 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NLP_APP.pageHistory">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+
+                <!-- Title Label -->
+                <Label Text="History" 
+                       FontSize="24" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Center" 
+                       Margin="0,20,0,0"/>
+
+                <!-- Info Label -->
+                <Label x:Name="lblInfo" 
+                       Text="Please wait..." 
+                       HorizontalOptions="CenterAndExpand" 
+                       Margin="0,20"/>
+
+                <!-- ListView -->
+                <ListView x:Name="listView" 
+                          SeparatorColor="Blue" 
+                          HasUnevenRows="true">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="10" 
+                                             BackgroundColor="#E0E0E0" 
+                                             Margin="0,5">
+                                    <!-- Type -->
+                                    <Label Text="Type: " 
+                                           FontSize="18" 
+                                           FontAttributes="Bold" 
+                                           TextColor="#2196F3"/>
+                                    <Label Text="{Binding sType}" 
+                                           FontSize="16" 
+                                           TextColor="Black"
+                                           HorizontalOptions="StartAndExpand"/>
+
+                                    <!-- Created -->
+                                    <Label Text="Created: " 
+                                           FontSize="18" 
+                                           FontAttributes="Bold" 
+                                           TextColor="#FF5722"/>
+                                    <Label Text="{Binding sDateTime}" 
+                                           FontSize="16" 
+                                           TextColor="Black"
+                                           HorizontalOptions="StartAndExpand"/>
+
+                                    <!-- Content -->
+                                    <Label Text="Content: " 
+                                           FontSize="18" 
+                                           FontAttributes="Bold" 
+                                           TextColor="#4CAF50"/>
+                                    <Label Text="{Binding sContext}" 
+                                           FontSize="16" 
+                                           TextColor="Black"
+                                           HorizontalOptions="StartAndExpand"/>
+
+                                    <!-- Result -->
+                                    <Label Text="Result: " 
+                                           FontSize="18" 
+                                           FontAttributes="Bold" 
+                                           TextColor="#FFEB3B"/>
+                                    <Label Text="{Binding sResult}" 
+                                           FontSize="16" 
+                                           TextColor="Black"
+                                           HorizontalOptions="StartAndExpand"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

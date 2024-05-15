@@ -11,7 +11,7 @@ namespace NLP_APP
 {
     class cDB
     {
-        private string _sUrlBase = "";
+        private string _sUrlBase = "https://myfp.lvbsx.com/NLP";
 
         public async Task<string> LogActivity(string pUsername, string pType, string pResult, string pContent)
         {
@@ -31,6 +31,12 @@ namespace NLP_APP
         public async Task<string> NewUser(string username, string pass)
         {
             string sRes = await GetStringFromBHDB($"new_user.php?user={username}&pass={pass}");
+            return sRes;
+        }
+
+        public async Task<string> GetHistory(string username)
+        {
+            string sRes = await GetStringFromBHDB($"read_actions.php?user={username}");
             return sRes;
         }
 

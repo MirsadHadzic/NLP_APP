@@ -20,3 +20,4 @@ D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\
 D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.1\NLP_APP.dll
 D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.1\ref\NLP_APP.dll
 D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.1\NLP_APP.pdb
+D:\Users\Anes\Documents\Visual Studio 2019\Projects\NLP_APP\NLP_APP\NLP_APP\obj\Debug\netstandard2.1\pageHistory.xaml.g.cs

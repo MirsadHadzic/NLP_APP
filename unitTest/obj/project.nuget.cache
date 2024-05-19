@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gQ6xR+UAQlz7nld/a8Pd2NIP/IrcGrZM3eaHfjEpcDOGea9TsObx2XxBvJqOBxWnA5vMU5kAupvjqAzUoaSglw==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\Anes\\Documents\\Visual Studio 2019\\Projects\\NLP_APP\\unitTest\\NLP_APP.UnitTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\nunit3testadapter\\3.13.0\\nunit3testadapter.3.13.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.uitest\\3.0.5\\xamarin.uitest.3.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

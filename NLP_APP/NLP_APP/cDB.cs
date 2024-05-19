@@ -11,7 +11,7 @@ namespace NLP_APP
 {
     class cDB
     {
-        private string _sUrlBase = "https://myfp.lvbsx.com/NLP";
+        private string _sUrlBase = "";
 
         public async Task<string> LogActivity(string pUsername, string pType, string pResult, string pContent)
         {

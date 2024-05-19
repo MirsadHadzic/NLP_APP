@@ -50,6 +50,7 @@ namespace NLP_APP
                     stNew.sType = jObj["type"].Value<string>();
                     lstHistory.Add(stNew);
                 }
+                lstHistory = lstHistory.OrderByDescending(x => DateTime.Parse(x.sDateTime)).ToList();
 
                 listView.ItemsSource = null;
                 listView.ItemsSource = lstHistory;

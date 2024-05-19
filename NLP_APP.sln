@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLP_APP.Android", "NLP_APP\NLP_APP.Android\NLP_APP.Android.csproj", "{08C67C9D-33EC-4AB7-B2F2-F552F6700149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLP_APP", "NLP_APP\NLP_APP\NLP_APP.csproj", "{9367734A-027C-4482-803D-4FD4B564B357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLP_APP", "NLP_APP\NLP_APP\NLP_APP.csproj", "{9367734A-027C-4482-803D-4FD4B564B357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLP_APP.UnitTesting", "unitTest\NLP_APP.UnitTesting.csproj", "{3FDD62B0-9B92-4947-95B6-DAF677C3ADDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{9367734A-027C-4482-803D-4FD4B564B357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9367734A-027C-4482-803D-4FD4B564B357}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9367734A-027C-4482-803D-4FD4B564B357}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3FDD62B0-9B92-4947-95B6-DAF677C3ADDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDD62B0-9B92-4947-95B6-DAF677C3ADDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDD62B0-9B92-4947-95B6-DAF677C3ADDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDD62B0-9B92-4947-95B6-DAF677C3ADDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
